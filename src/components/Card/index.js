@@ -16,7 +16,7 @@ const Card = () => {
     return(
         <div className="card">
             <div className="card-header">
-                Meu primeiro card
+                Contador
             </div>
             <div className="card-body">
 
