@@ -1,12 +1,14 @@
+import Item from './components/Item';
+import Card from './components/Card';
+
 const App = () => {
   return(
     <>
     <h1>Meu primeiro App React</h1>
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+    <Item> Item 1</Item>
+    <Item> Item 1</Item>
+    <Item> Item 1</Item>
+    <Card/>
     </>
   )
 }
